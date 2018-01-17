@@ -1,0 +1,50 @@
+h1, #no-query h2 {
+    color: #FAFAFA;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+#no-query h2 {
+   font-size: 1.5em;
+}
+.list-result ul {
+   padding-left: 0;
+}
+.list-result li h2, #random-result-title {
+   font-size: 1.5em;
+   font-weight: 600;
+   padding: 0;
+   border-radius: 0 10px 10px 10px;
+   margin-left: -1em;
+}
+.list-result li h2 a, #random-result-title a {
+   display: block;
+   padding: .5em;
+   color: #25211A;
+   text-align: center;
+}
+.list-result li {
+   list-style-type: none;
+   background-color: #FAFAFA;
+   margin-bottom: 2em;
+   padding: 1em 2em 2em;
+   border-radius: 5px;
+}
+.list-result li h2 a:hover,
+.list-result li h2 a:focus,
+.list-result li h2 a:active,
+#random-result-title a:hover, 
+#random-result-title a:focus,
+#random-result-title a:active {
+   color: #FFCB24;
+   text-decoration: none;
+}
+
+#random-result-title {
+    text-transform:uppercase;
+}
+
+.list-result li h2 {
+    text-transform:uppercase;
+}

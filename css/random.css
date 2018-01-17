@@ -1,0 +1,63 @@
+.list-result p, #random-result p,
+.list-result li, #random-result li {
+   font-size: 1.1em;
+}
+.random-box {
+   overflow: hidden;
+   border-radius: 5px 05px 5px 5px;
+}
+
+.random {
+   display: block;
+   height: 100%;
+   -webkit-animation: hue-rotate 10s linear infinite;
+           animation: hue-rotate 10s linear infinite;  
+}
+
+.random a {
+   text-decoration: none;
+   color:#fff;
+}
+
+
+#random, .list-result {
+   margin-top: 3em;
+}
+
+#random.look {
+   background-color: #F5F1E9;
+   color: #616161;
+}
+
+#random:hover,
+#search-button:hover,
+#random:focus,
+#search-button:focus {
+   color: #25211A;
+   background-color: #E9C019;
+}
+
+.random-result {
+   display: none;
+}
+
+.random-result > * {
+   background-color: #F5F1E9;
+   padding: 0 2em 2em;
+}
+
+.random-result, .intro {
+   margin-top: 6em;
+}
+
+.accent-link {
+   color: #25211A;
+}
+
+.accent-hint {
+   color: #25211A;
+}
+
+.arrow {
+   color: #25211A;
+}

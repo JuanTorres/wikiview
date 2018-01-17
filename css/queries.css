@@ -1,0 +1,44 @@
+/* media queries */
+
+@media screen and (max-width:767px){
+    
+   .list-result p, #random-result p,
+   .list-result li, #random-result li {
+      font-size: 1em;
+   }
+    
+    #back-to-top {
+        text-align: center;
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+    
+    .footer-dsc div {
+        margin-top: 20px;
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width:1199px){
+   footer {
+      margin-top: 5em;
+   }
+}
+
+@media screen and (min-width: 1200px){
+   .search {
+      padding-top: 3em;
+   }
+    
+   #no-query h2 {
+      font-size: 2em;
+   }
+    
+   #arrow-top {
+      padding-right: 5em;
+   }
+    
+    footer {
+      margin-top: 65px;
+   }
+    
